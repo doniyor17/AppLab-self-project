@@ -1,0 +1,80 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+::before {
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-style: normal;
+	font-display:swap;
+	src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+	url("../fonts/Poppins-Bold.woff") format("woff");
+}
+@font-face {
+	font-family: "Poppins";
+	font-weight: 400;
+	font-style: normal;
+	font-display:swap;
+	src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+	url("../fonts/Poppins-Regular.woff") format("woff");
+}
+@font-face {
+	font-family: "Poppins";
+	font-weight: 300;
+	font-style: normal;
+	font-display:swap;
+	src: url("../fonts/Poppins-Light.woff2") format("woff2"),
+	url("../fonts/Poppins-Light.woff") format("woff");
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", "Arial", sans-serif;
+}
+.wrapper__sitenav {
+	width: 1600px;
+	background-color: orange;
+}
+.container {
+	width: 1100px;
+	margin: 100px auto;
+	background-color: #fff;
+}
+.sitenav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sitenav__logo-link {
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.app {
+	margin-right: 0;
+	color: #fcae61;
+}
+.lab {
+	margin-left: -5px;
+	color: #242f51;
+}
+.sitenav__navbar {
+}
+.navbar__link {
+	margin-right: 35px;
+	font-size: 16px;
+	color: #242f51;
+	text-decoration: none;
+}
+.try-free {
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 27.5px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #2500f9;
+}
