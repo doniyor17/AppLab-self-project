@@ -48,6 +48,9 @@ body {
 	padding: 0;
 	background-color: #fff;
 }
+.wrapper__sitenav {
+	margin-top: 100px;
+}
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -142,4 +145,45 @@ body {
 }
 .intro-part__img {
 	display: block;
+}
+.custommers-section {
+	padding: 110px 110px 150px 120px;
+}
+.custommers-section__header {
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 45px;
+	font-weight: normal;
+	color: #242f51;
+	text-align: center;
+}
+.custommers-section__companies-box {
+	display: flex;
+	align-items: center;
+}
+.custommers-section-img {
+	margin-right: 65px;
+}
+.south-west {
+	width: 133px;
+	height: 42px;
+}
+.anubis {
+	width: 118px;
+	height: 84px;
+}
+.alonzo {
+	width: 151px;
+	height: 58px;
+}
+.express {
+	width: 123px;
+	height: 71px;
+}
+.maniac {
+	width: 147px;
+	height: 51px;
+}
+.custommers-section-img:last-child {
+	margin-right: 0;
 }
