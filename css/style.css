@@ -7,60 +7,63 @@ html {
 	box-sizing: border-box;
 }
 @font-face {
-	font-family: "Poppins";
-	font-weight: 700;
-	font-style: normal;
-	font-display:swap;
-	src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
-	url("../fonts/Poppins-Bold.woff") format("woff");
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins-v9-latin-regular.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-regular.woff') format('woff'); 
 }
 @font-face {
-	font-family: "Poppins";
-	font-weight: 400;
-	font-style: normal;
-	font-display:swap;
-	src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
-	url("../fonts/Poppins-Regular.woff") format("woff");
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+       url('../fonts/poppins-v9-latin-500.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-500.woff') format('woff'); 
 }
 @font-face {
-	font-family: "Poppins";
-	font-weight: 300;
-	font-style: normal;
-	font-display:swap;
-	src: url("../fonts/Poppins-Light.woff2") format("woff2"),
-	url("../fonts/Poppins-Light.woff") format("woff");
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+       url('../fonts/poppins-v9-latin-600.woff2') format('woff2'), 
+       url('../fonts/poppins-v9-latin-600.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Poppins Bold'), local('Poppins-Bold'),
+       url('../fonts/poppins-v9-latin-700.woff2') format('woff2'), 
+       url('../fonts/poppins-v9-latin-700.woff') format('woff'); 
 }
 body {
+	font-family: "Poppins", "Arial", sans-serif;
 	margin: 0;
 	padding: 0;
-	font-family: "Poppins", "Arial", sans-serif;
-}
-.wrapper__sitenav {
-	width: 1600px;
-	background-color: orange;
+	background-color: #fff;
 }
 .container {
-	width: 1100px;
-	margin: 100px auto;
-	background-color: #fff;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 .sitenav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 20px;
 }
 .sitenav__logo-link {
-	font-size: 30px;
-	font-weight: bold;
 	text-decoration: none;
 }
-.app {
-	margin-right: 0;
-	color: #fcae61;
-}
-.lab {
-	margin-left: -5px;
-	color: #242f51;
+.logo {
+	width: 96px;
+	height: 32px;
 }
 .navbar__link {
 	margin-right: 35px;
@@ -68,30 +71,59 @@ body {
 	color: #242f51;
 	text-decoration: none;
 }
-.try-free {
+.button {
 	display: inline-block;
 	padding: 20px 40px;
 	margin-left: 20px;
 	margin-right: 0;
 	border-radius: 27.5px;
+	font-size: 16px;
 	color: #fff;
+	text-decoration: none;
 	font-weight: bold;
 	background-color: #2500f9;
 }
+.wrapper-intro {
+	background-image: url("../img/Layer 5.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
 .intro-part {
-	width: 500px;
+	display: flex;
+	align-items: center;
+	padding-left: 60px;
+	padding-right: 30px;
+	background-image: url("../img/intro-bg-all.png");
+	background-size: contain;
+	background-position: bottom 80px right 50px;
 }
-.intro__editors-choice {
+.intro-part__editors-choice {
+	display: flex;
+	align-items: center;
 	position: relative;
-	padding: 10px 50px;
-	border-radius: 15px;
-	background-color: rgba(100, 250, 60, 0.8);
 }
-.intro__header {
-	font-size: 40px;
+.intro-part__editors-choice p {
+	margin: 0;
+	padding: 10px 48px;
+	padding-left: 57px;
+	border-radius: 17.5px;
+	background-color: #e2eaed;
+	font-size: 18px;
+}
+.check-icon {
+	position: absolute;
+	left: 10px;
+}
+.check-icon-bg {
+	position: absolute;
+	border-radius: 17.5px;
+}
+.intro-part__header {
+	font-size: 60px;
 }
 .intro-part__text {
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 	font-size: 18px;
 	color: #777;
 }
@@ -107,4 +139,7 @@ body {
 	color: #fff;
 	font-weight: bold;
 	background-color: #2500f9;
+}
+.intro-part__img {
+	display: block;
 }
