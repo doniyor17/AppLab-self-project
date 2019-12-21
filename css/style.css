@@ -77,14 +77,16 @@ body {
 .button {
 	display: inline-block;
 	padding: 20px 40px;
-	margin-left: 20px;
-	margin-right: 0;
 	border-radius: 27.5px;
 	font-size: 16px;
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
 	background-color: #2500f9;
+}
+.try-free {
+	margin-left: 20px;
+	margin-right: 0;
 }
 .wrapper-intro {
 	background-image: url("../img/Layer 5.png");
@@ -135,13 +137,8 @@ body {
 	padding: 15px;
 	font-size: 16px;
 }
-.try-free {
-	display: inline-block;
-	padding: 20px 40px;
-	border-radius: 27.5px;
-	color: #fff;
-	font-weight: bold;
-	background-color: #2500f9;
+.intro-part__link {
+	padding: 20px 45px;
 }
 .intro-part__img {
 	display: block;
@@ -258,7 +255,7 @@ body {
 }
 .smartjack-icons-wrapper {
 	display: flex;
-	margin-bottom: 150px;
+	margin-bottom: 110px;
 }
 .smartjack-detail-box {
 	margin-right: 115px;
@@ -303,4 +300,28 @@ body {
 }
 .detail-icon-rate {
 	background-color: #e4ffee;
+}
+.design-section {
+	display: flex;
+	align-items: center;
+}
+.design-section__img-box {
+	margin-right: 50px;
+}
+.design-section__img {
+	width: 538px;
+	height: 487px;
+}
+.design-section__header {
+	margin-bottom: 20px;
+  	line-height: 1.278;
+  	font-size: 36px;
+  	color: rgb(36, 47, 81);
+  	font-weight: bold;
+}
+.design-section__text {
+	margin-bottom: 35px;
+  	line-height: 1.625;
+ 	font-size: 16px;
+ 	color: rgb(97, 99, 104);
 }
