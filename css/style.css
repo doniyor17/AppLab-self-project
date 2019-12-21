@@ -65,7 +65,7 @@ body {
 	text-decoration: none;
 }
 .logo {
-	width: 96px;
+	width: 110px;
 	height: 32px;
 }
 .navbar__link {
@@ -189,6 +189,7 @@ body {
 }
 .app-features-section {
 	display: flex;
+	margin-bottom: 108px;
 }
 .app-features__img {
 	width: 576px;
@@ -217,7 +218,7 @@ body {
 	display: flex;
 	align-items: center;
 }
-.detail-img-box {
+.icon-box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -227,30 +228,79 @@ body {
 	margin-right: 35px;
 	border-radius: 50%;
 }
-.detail-img-fast {
+.detail-icon-fast {
 	background-color: #e2eaed;
 }
-.app-features--detail-img {
+.icon {
 	width: 58px;
 	height: 54px;
 }
-.app-features--detail-header {
+.icon-header {
 	margin: 0;
 	font-size: 20px;
 	line-height: 58px;
+	text-transform: capitalize;
 }
 .performance {
 	color: #f55767;
 }
-.detail-img-prototype {
+.detail-icon-prototype {
 	background-color: #f4f4ff;
 }
 .prototype {
 	color: #2563ff;
 }
-.detail-img-vec-edit {
+.detail-icon-vec-edit {
 	background-color: #e4ffee;
 }
 .vec-edit {
 	color: #40975f;
+}
+.smartjack-icons-wrapper {
+	display: flex;
+	margin-bottom: 150px;
+}
+.smartjack-detail-box {
+	margin-right: 115px;
+}
+.smartjack-detail-box:last-child {
+	margin-right: 0;
+}
+.smartjack-heading {
+	display: flex;
+	padding-bottom: 109px;
+}
+.smartjack-header {
+	margin: 0;
+	padding-right: 78px;
+  	font-size: 40px;
+  	color: rgb(36, 47, 81);
+  	font-weight: bold;
+  	line-height: 1.25;
+}
+.payouts-header {
+	color: #f55767;
+}
+.network-header {
+	color: #2563ff;
+}
+.rate-header {
+	color: #40975f;
+}
+.smartjack-text {
+	margin: 0;
+	padding: 35px 48px;
+	border-left: 1px solid rgb(97, 99, 104);
+  	font-size: 16px;
+  	color: rgb(97, 99, 104);
+  	line-height: 1.625;
+}
+.detail-icon-payout {
+	background-color: #ffecef;
+}
+.detail-icon-network {
+	background-color: #f4f4ff;
+}
+.detail-icon-rate {
+	background-color: #e4ffee;
 }
