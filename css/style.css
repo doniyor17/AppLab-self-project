@@ -383,6 +383,177 @@ body {
 .detail-icon-cutommer-support {
 	background-color: #fdeee4;
 }
-.app-development {
-	color: #
+.ultimate-features__header {
+	margin-bottom: 15px;
+}
+.ultimate-features__text {
+	margin-bottom: 60px;
+}
+.wrapper-ultimate-features {
+	background-image: url("../img/double-phone.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: contain;
+	margin-bottom: 168px;
+}
+.ultimate-icon-list {
+	width: 630px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0;
+	margin-bottom: 49px;
+	list-style-type: none;
+}
+.ultimate-feature--detail {
+	margin: 0;
+	padding: 0;
+}
+.ultimate-icon-app-dev {
+	background-color: #ffecef;
+}
+.ultimate-icon-cloud {
+	background-color: #fff6d3;
+}
+.ultimate-icon-ux-planning {
+	background-color: #f4f4ff;
+}
+.ultimate-icon-cutommer-support {
+	background-color: #fdeee4;
+}
+.plan-payment-section {
+	margin-bottom: 100px;
+}
+.plan-payment__header {
+	margin-bottom: 30px;
+  	line-height: 1.278;
+  	font-size: 36px;
+  	color: rgb(36, 47, 81);
+  	font-weight: bold;
+  	text-align: center;
+}
+.plan-payment__text {
+	margin-bottom: 75px;
+  	line-height: 1.625;
+  	font-size: 16px;
+  	color: rgb(97, 99, 104);
+  	text-align: center;
+}
+.plan-payment__form {
+	width: 283px;
+	height: 57px;
+	margin-bottom: 40px;
+	position: relative;
+	padding: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 3px solid #ebebebeb;
+	border-radius: 28.5px;
+}
+.plan-payment__form span {
+	width: 139px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding-top: 4px;
+	transform: translateY(-50%);
+	border-radius: 28.5px;
+	text-align: center;
+}
+.plan-payment__form .month {
+	top: 50%;
+	left: 0;
+}
+.plan-payment__form .year {
+	top: 50%;
+	right: 0;
+}
+.plan-payment__form input {
+	display: none;
+}
+.plan-payment__form input:checked ~span {
+	font-weight: bold;
+	color: white;
+	background-color: blue;
+}
+.month, .year {
+	font-size: 16px;
+	line-height: 44px;
+}
+.plan-payment__plans-box {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+.monthly-plan, .annual-plan {
+	width: 317px;
+	border-radius: 9px;
+	text-align: center;
+}
+.monthly-plan {
+	max-height: 595px;
+	margin-right: 40px;
+	border: 2px solid transparent;
+	box-shadow: 1px 0 15px #ddd;
+}
+.annual-plan {
+	border: 2px solid #ebebeb;
+}
+.plan-heading {
+	background-color: #ebebeb;
+}
+.plan-head {
+	margin: 0;
+	margin-bottom: 30px;
+	padding-top: 70px;
+	font-size: 60px;
+	line-height: 58px;
+	font-weight: 600;
+	color: #242f51;
+}
+.plan-head span {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #999ca5;
+}
+.plan-class {
+	margin-bottom: 0;
+	font-size: 20px;
+	line-height: 28px;
+	color: #242f51;
+}
+.plan-text {
+	margin: 0;
+	margin-bottom: 29px;
+	padding-bottom: 40px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #999ca5;
+}
+.offers-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.offers {
+	margin-bottom: 3px;
+	font-size: 16px;
+	line-height: 48px;
+	font-family: "Poppins";
+}
+.monthly-plan .button, .annual-plan .button {
+	margin-top: 24px;
+}
+.annual-plan .button {
+	margin-bottom: 32px;
+}
+.annual-plan__offer-extra {
+	display: block;
+	margin-bottom: 24px;
+  	font-size: 16px;
+  	color: #2500f9;
+  	line-height: 1.75;
+	text-decoration: none;
 }
