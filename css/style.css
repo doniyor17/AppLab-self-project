@@ -421,6 +421,10 @@ body {
 .ultimate-icon-cutommer-support {
 	background-color: #fdeee4;
 }
+.wrapper-plan-payment {
+	padding-bottom: 104px;
+	border-bottom: 1px solid  #ccc;
+}
 .plan-payment-section {
 	margin-bottom: 100px;
 }
@@ -556,4 +560,102 @@ body {
   	color: #2500f9;
   	line-height: 1.75;
 	text-decoration: none;
+}
+.wrapper-client-satisfaction {
+	margin-top: 150px;
+	margin-bottom: 200px;
+	background-image: url("../img/w-map.png");
+	background-position: left 60px bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.client-feedback-box {
+	width: 570px;
+	margin-left: auto;
+}
+.client-feedback__header {
+	margin-bottom: 22px;
+  	line-height: 1.25;
+  	font-size: 40px;
+  	color: rgb(36, 47, 81);
+  	font-weight: 600;
+}
+.client-feedback__text {
+	margin-bottom: 35px;
+  	line-height: 1.625;
+  	font-size: 16px;
+  	color: rgb(97, 99, 104);
+}
+.client-feedback__stars {
+	width: 170px;
+	height: 22px;
+	margin-bottom: 22px;
+}
+.client-feedback__header-extra {
+  	line-height: 2.9;
+  	font-size: 20px;
+  	color: rgb(36, 47, 81);
+  	font-weight: bold;
+}
+.client-feedback__text-extra {
+	margin-bottom: 60px;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(97, 99, 104);
+	font-family: "Poppins";
+	font-weight: 400;
+}
+.client-feedback__footer {
+	display: flex;
+	position: relative;
+}
+.client-feedback__footer-img {
+	width: 90px;
+	height: 90px;
+	margin-right: 30px;
+}
+.client-feedback__footer-title {
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+  	color: rgb(36, 47, 81);
+}
+.client-feedback__footer-text {
+	margin: 0;
+  	line-height: 1.556;
+  	font-size: 18px;
+  	color: rgb(97, 99, 104);
+}
+.client-feedback__arrows-box {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.arrows {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: auto;
+	text-decoration: none;
+}
+.footer-prev-page {
+	margin-right: 10px;
+	border: 2px solid  #ccc;
+}
+.footer-next-page {
+	margin-left: 10px;
+	background-color: #eff3f8;
+}
+.border {
+	width: 1px;
+	height: 100px;
+	border: 1px solid #ddd;
+}
+.arrows img {
+	padding-top: 18px;
+	padding-left: 15px;
 }
