@@ -714,6 +714,11 @@ body {
 	align-items: center;
 	background-color: #f5f7fa;
 }
+.questions p {
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+}
 .question__emergency {
 	margin-bottom: 102px;
 }
@@ -745,11 +750,31 @@ body {
 }
 .download-app__text {
 	margin-bottom: 45px;
-  font-size: 16px;
-  color: rgb(97, 99, 104);
-  line-height: 1.625;
-  text-align: left;
+  	font-size: 16px;
+  	color: rgb(97, 99, 104);
+  	line-height: 1.625;
+  	text-align: left;
 }
 .download-app__google {
 	margin-right: 32px;
+}
+.wrapper-footer {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 130px;
+	background-color: #09142e;
+}
+.footer-section .sitenav__logo-link {
+	display: block;
+	margin-bottom: 50px;
+}
+.footer-section .sitenav__navbar {
+	margin-bottom: 50px;
+}
+.footer-section .navbar__link {
+	color: #fff;
+}
+.footer__copyright {
+	margin-top: 90px;
+  	color: rgba(255, 255, 255, 0.212);
 }
