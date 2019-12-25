@@ -663,6 +663,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 430px;
 }
 .faq-section__header {
 	margin-bottom: 30px;
@@ -723,4 +724,32 @@ body {
   	font-weight: 400;
   	color: rgb(36, 47, 81);
   	line-height: 58px;
+}
+.wrapper-download-app {
+	padding-top: 100px;
+	border-top: 1px solid #ddd;
+	background-image: url("../img/rider-bg.png");
+	background-repeat: no-repeat;
+	background-size: 844px 472px;
+	background-position: right bottom;
+}
+.download-app-section {
+	padding-bottom: 205px;
+}
+.download-app__header {
+	margin: 0;
+	margin-bottom: 20px;
+  	font-size: 48px;
+  	color: rgb(36, 47, 81);
+  	line-height: 1.208;
+}
+.download-app__text {
+	margin-bottom: 45px;
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+  text-align: left;
+}
+.download-app__google {
+	margin-right: 32px;
 }
