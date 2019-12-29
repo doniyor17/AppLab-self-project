@@ -49,7 +49,7 @@ body {
 	background-color: #fff;
 }
 .wrapper__sitenav {
-	margin-top: 100px;
+	padding-top: 20px;
 }
 .container {
 	max-width: 1170px;
@@ -87,6 +87,42 @@ body {
 .try-free {
 	margin-left: 20px;
 	margin-right: 0;
+}
+@media (max-width: 1300px) {
+	.sitenav {
+		padding: 0 60px;
+	}
+}
+@media (max-width: 960px) {
+	nav .sitenav__navbar {
+		display: flex;
+		align-items: center;
+	}
+	.navbar__link {
+		margin-right: 15px;
+	}
+}
+@media (max-width: 830px) {
+	.sitenav {
+		display: flex;
+		flex-direction: column;
+	}
+	.sitenav__navbar {
+		display: flex;
+		flex-direction: column;
+		margin-right: auto;
+	}
+	.sitenav__logo-link {
+		margin-bottom: 15px;
+		margin-right: auto;
+	}
+	.navbar__link {
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	.try-free {
+		margin-left: -10px;
+	}
 }
 .wrapper-intro {
 	background-image: url("../img/Layer 5.png");
@@ -143,6 +179,32 @@ body {
 .intro-part__img {
 	display: block;
 }
+@media (max-width: 1000px) {
+	.wrapper-intro {
+		background-image: none;
+	}
+	.intro-part {
+		background-image: url("../img/intro-bg-all.png");
+		background-size: contain;
+		background-position: bottom 80px right 0;
+	}
+	.intro-part__text-box {
+		display: flex;
+		flex-direction: column;
+	}
+	.intro-part__link {
+		width: 200px;
+		display: inline-block;
+		text-align: center;
+	}
+}
+@media (max-width: 1000px) {
+	.intro-part {
+		background-image: url("../img/intro-bg-all.png");
+		background-size: cover;
+		background-position: bottom 80px right 0;
+	}
+}
 .custommers-section {
 	padding: 110px 110px 150px 120px;
 }
@@ -183,6 +245,30 @@ body {
 }
 .custommers-section-img:last-child {
 	margin-right: 0;
+}
+@media (max-width: 1100px) {
+	.custommers-section {
+		padding: 50px 20px;
+	}
+	.custommers-section-img {
+		margin-right: 30px;
+	}
+	.custommers-section-img:last-child {
+		margin-right: 20px;
+	}
+}
+@media (max-width: 450px) {
+	.custommers-section__companies-box {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.custommers-section-img {
+		margin: 0;
+		margin: 10px 15px;
+	}
+	.custommers-section-img:last-child {
+		margin-right:0;
+	}
 }
 .app-features-section {
 	display: flex;
@@ -253,6 +339,30 @@ body {
 .vec-edit {
 	color: #40975f;
 }
+@media (max-width: 1100px) {
+	.app-features--detail {
+		display: inline-block;
+	}
+}
+@media (max-width: 960px) {
+	.app-features__img {
+		width: 376px;
+		height: 639px;
+		margin-right: 55px;
+		background-image: url("../img/feature-img-bg.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+	}
+	.app-features__header {
+	font-size: 24px;
+  	line-height: 20px;
+	}
+	.icon-header {
+	font-size: 16px;
+	line-height: 28px;
+	}
+}
 .smartjack-icons-wrapper {
 	display: flex;
 	margin-bottom: 110px;
@@ -301,6 +411,23 @@ body {
 .detail-icon-rate {
 	background-color: #e4ffee;
 }
+@media (max-width: 1250px) {
+	.smartjack-section {
+		padding-left: 20px;
+	}
+}
+@media (max-width: 1050px) {
+	.smartjack-heading {
+		padding-bottom: 59px;
+	}
+	.smartjack-detail-box {
+		padding-right: 55px;
+		margin-right: auto;
+	}
+.smartjack-detail-box:last-child {
+		padding-right: 10px;
+	}
+}
 .design-section {
 	display: flex;
 	align-items: center;
@@ -325,6 +452,14 @@ body {
   	line-height: 1.625;
  	font-size: 16px;
  	color: rgb(97, 99, 104);
+}
+@media (max-width: 1050px) {
+	.design-section {
+		margin-bottom: 70px;
+	}
+	.design-section__text-box {
+		padding-right: 50px;
+	}
 }
 .choice-section__header {
 	margin: 0;
@@ -383,6 +518,45 @@ body {
 .detail-icon-cutommer-support {
 	background-color: #fdeee4;
 }
+@media (max-width: 1050px) {
+	.choice-section--detail {
+		margin-right: 150px;
+	}
+	.choice-section--detail:nth-child(even) {
+		margin-right: 0;
+	}
+	.choice-section--detail:nth-child(odd) {
+		margin-right: 150px;
+	}
+}
+@media (max-width: 750px) {
+	.choice-section--detail {
+		margin-right: 50px;
+	}
+	.choice-section--detail:nth-child(odd) {
+		margin-right: 50px;
+	}
+}
+@media (max-width: 620px) {
+	.choice-section__text {
+		margin: 0;
+		margin-bottom: 38px;
+	  	font-size: 16px;
+	  	color: rgb(97, 99, 104);
+	  	line-height: 1.625;
+	  	text-align: center;
+	}
+	.choice-section--detail {
+		margin-right: 30px;
+		margin-bottom: 10px;
+	}
+	.choice-section--detail:nth-child(even) {
+		margin-right: 30px;
+	}
+	.choice-section--detail:nth-child(odd) {
+		margin-right: 30px;
+	}
+}
 .ultimate-features__header {
 	margin-bottom: 15px;
 }
@@ -418,8 +592,36 @@ body {
 .ultimate-icon-ux-planning {
 	background-color: #f4f4ff;
 }
-.ultimate-icon-cutommer-support {
+.ultimate-icon-custommer-support {
 	background-color: #fdeee4;
+}
+@media (max-width: 1300px) {
+	.ultimate-icon-list {
+		width: 530px;
+	}	
+}
+@media (max-width: 1200px) {
+	.ultimate-features {
+		padding-left: 20px;
+	}
+}
+@media (max-width: 1150px) {
+	.wrapper-ultimate-features {
+		background-size: 600px 700px;
+	}
+	.ultimate-features-list {
+		flex-direction: column;
+	}
+}
+@media (max-width: 850px) {
+	.wrapper-ultimate-features {
+		background-size: 400px 500px;
+	}
+}
+@media (max-width: 650px) {
+	.wrapper-ultimate-features {
+		background-image: none;
+	}
 }
 .wrapper-plan-payment {
 	padding-bottom: 104px;
@@ -561,6 +763,12 @@ body {
   	line-height: 1.75;
 	text-decoration: none;
 }
+@media (max-width: 750px) {
+	.plan-payment-section {
+		margin-left: 25px;
+		margin-bottom: 0;
+	}
+}
 .wrapper-client-satisfaction {
 	margin-top: 150px;
 	margin-bottom: 200px;
@@ -602,7 +810,6 @@ body {
 	font-size: 16px;
 	line-height: 26px;
 	color: rgb(97, 99, 104);
-	font-family: "Poppins";
 	font-weight: 400;
 }
 .client-feedback__footer {
@@ -658,6 +865,11 @@ body {
 .arrows img {
 	padding-top: 18px;
 	padding-left: 15px;
+}
+@media (max-width: 1480) {
+	.client-feedback__footer {
+		margin-top: 300px;
+	}
 }
 .faq-section {
 	display: flex;
@@ -729,6 +941,14 @@ body {
   	font-weight: 400;
   	color: rgb(36, 47, 81);
   	line-height: 58px;
+}
+@media (max-width: 1100px) {
+	.faq-section {
+		width: 745px;
+		height: 256px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 .wrapper-download-app {
 	padding-top: 100px;
